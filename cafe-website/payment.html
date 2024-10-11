@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <form class="third_page" >
+        <label for="name">Name:</label>
+        <input type="text" id="name"><br/>
+        <label for="number">Phone No.:</label>
+        <input type="tel" id="number"><br/>
+        <label for="address">Address</label>
+        <input type="text" id="address">
+        <br/>
+        <label for="payment">Payment Type:</label>
+        <select name="payment_type" id="payment">
+            <option>Select your option</option>
+            <option value="gpay"> google Pay</option>
+            <option value="cash">Cash on Delivery</option>
+            <option value="UPI">UPI</option>
+            <option value="Netbanking">Netbanking</option>
+
+        </select><br/>
+        <label for="details">Enter UPI Id/ Account no.</label>
+        <input for="text" id="details">
+
+    </form>
+   <a href="end.html" class="bt">Place Order</a>
+   <h1 class="thank_you"> Thank You for Visiting &hearts;</h1>
+</body>
+</html>
